@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "all": "concurrently \"vite\" \"bun run backend/index.ts\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "concurrently": "^9.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.5.0",
