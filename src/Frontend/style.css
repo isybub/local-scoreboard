@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Rooney";
+    src:
+      url("/src/Frontend/Rooney\ Pro\ Black\ Italic.otf"),
+}
+  
+body {
+    background-color: #eed5b9;
+    font-family: 'Rooney';
+}
+
+#scoreboard {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    transform: translate(0,-50%);
+}
+
+#teamContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teamName {
+    font-size: 4em;
+    text-align: center;
+    color: #e6a92d;
+    text-shadow: -2px -2px 0 #814516, 2px -2px 0 #814516, -2px 2px 0 #814516, 2px 2px 0 #814516, 5px 5px 0 #814516;
+}
+
+#teamPoints {
+    font-size: 12em;
+    color: #e6a92d;
+    text-shadow: -2px -2px 0 #814516, 2px -2px 0 #814516, -2px 2px 0 #814516, 2px 2px 0 #814516, 5px 5px 0 #814516;
+}
